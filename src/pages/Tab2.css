@@ -1,0 +1,16 @@
+.poster {
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 4rem;
+}
+img {
+    margin: 0 auto;
+}
+.tagline {
+    color: var(--ion-color-medium);
+    text-align: center;
+}
+.overview {
+    max-width: 600px;
+    margin: 0 auto;
+}

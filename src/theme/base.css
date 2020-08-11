@@ -1,0 +1,51 @@
+* {
+    font-family: "Karla";
+    line-height: 2rem;
+}
+main {
+    padding: 1rem 2rem;
+}
+@media (min-width: 768px) {
+    main {
+        padding: 2rem 4rem;
+    }
+}
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+}
+.movies a {
+    width: 50%;
+    padding: 0.75rem;
+    padding-bottom: 2rem;
+
+    text-decoration: none;
+    color: black;
+}
+.movies a:hover {
+    background-color: var(--ion-color-light-tint);
+}
+.movies img {
+    width: 100%;
+}
+.movies .movie-title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+    .movies a {
+        width: 25%;
+    }
+}
+@media (min-width: 1024px) {
+    .movies a {
+        width: 20%;
+    }
+}
+@media (min-width: 1280px) {
+    .movies a {
+        width: 14.2857142857%;
+    }
+}
